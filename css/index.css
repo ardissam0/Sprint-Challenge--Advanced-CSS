@@ -3,6 +3,9 @@
   flex-direction: column;
   align-items: center;
 }
+.width {
+  width: 100%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -167,6 +170,8 @@ p {
 }
 .navbar1 {
   width: 100%;
+  position: fixed;
+  opacity: 65%;
 }
 @media (max-width: 500px) {
   .navbar1 {
@@ -193,6 +198,13 @@ p {
   color: black;
   flex-direction: row;
   margin-left: 30px;
+}
+.navbar1 a:hover {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px;
+  background-color: black;
+  color: white;
 }
 @media (max-width: 500px) {
   .navbar1 a {

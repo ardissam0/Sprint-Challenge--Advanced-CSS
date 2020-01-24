@@ -8,7 +8,7 @@
       border-radius: 15px;
 
       @media @phone {
-        width: 100%;
+        .width();
       }
     }
 
@@ -25,7 +25,7 @@
   .space-images {
     display: flex;
     flex-wrap: wrap;
-    width: 100%; 
+    .width(); 
 
     img {
       width: 28%;
@@ -37,7 +37,7 @@
     @media @phone {
       
       .blast {
-        width: 100%;
+        .width();
       }
 
       .sky {
@@ -71,7 +71,7 @@
 
     @media @phone {
       flex-direction: column-reverse;
-      width: 100%;
+      .width();
       padding: 0;
     }
 
@@ -79,7 +79,7 @@
       width: 50%;
 
       @media @phone {
-        width: 100%;
+        .width();
         margin-left: 15px;
       }
 
@@ -116,11 +116,11 @@
       margin-left: 4%;
 
       @media @phone {
-        width: 100%;
+        .width();
       }
       
       img {
-        width: 100%;
+        .width();
         height: auto;
         border-radius: 10px;
 

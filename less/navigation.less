@@ -1,7 +1,9 @@
 // Navigation code here
 
     .navbar1 {
-        width: 100%;
+        .width();
+        position: fixed;
+        opacity: 65%;
 
         @media @phone {
             margin: 0 auto 30px;
@@ -26,6 +28,13 @@
         color: black;
         flex-direction: row;
         margin-left: 30px;
+        &:hover {
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 4px;
+            background-color: black;
+            color: white;
+        }
 
         @media @phone {
             margin-left: 20px;
