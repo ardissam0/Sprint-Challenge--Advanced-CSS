@@ -1,4 +1,3 @@
-@phone (max-width: 500px);
 .center {
   display: flex;
   flex-direction: column;
@@ -169,6 +168,12 @@ p {
 .navbar1 {
   width: 100%;
 }
+@media (max-width: 500px) {
+  .navbar1 {
+    margin: 0 auto 30px;
+    margin-bottom: 0;
+  }
+}
 .navbar1 nav {
   display: flex;
   flex-direction: column;
@@ -189,6 +194,11 @@ p {
   flex-direction: row;
   margin-left: 30px;
 }
+@media (max-width: 500px) {
+  .navbar1 a {
+    margin-left: 20px;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -198,6 +208,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 15px;
+}
+@media (max-width: 500px) {
+  .home .intro img {
+    width: 100%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
@@ -216,6 +234,17 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
+@media (max-width: 500px) {
+  .home .space-images .blast {
+    width: 100%;
+  }
+  .home .space-images .sky {
+    display: none;
+  }
+  .home .space-images .launch {
+    display: none;
+  }
+}
 .home .visit-planets {
   padding: 15px;
 }
@@ -232,11 +261,29 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .home .walk {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 0;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text {
+    width: 100%;
+    margin-left: 15px;
+  }
+}
 .home .walk .walk-text h3 {
   margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text h3 {
+    margin-top: 10px;
+  }
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
@@ -256,9 +303,22 @@ footer {
   background-color: white;
   color: black;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    width: 100%;
+  }
 }
 .home .walk .walk-img img {
   width: 100%;
