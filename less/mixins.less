@@ -1,1 +1,25 @@
 // Mixins Here
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+//parametric mixin
+
+.custom-btn (@bg-color, @width, @font-color) {
+    background-color: @bg-color;
+    width: @width;
+    color: @font-color;
+    display: block;
+    border: 1px solid;
+    padding: 2%;
+    border-radius: 8px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+

@@ -34,13 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites are all about the user and can adapt to multiple screen sizes but needs predefined screen sizes to adapt. And you have to create different layouts for each screen size. 
+
+Responsive websites adapt to all screens across all devices without predefined screen sizes. It loads faster but it can be hard to design this kind of website.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is when you design a website that starts out as a mobile friendly and work up to different screen sizes, this uses min-width.
+
+Desktop first is when you design a website that starts out as a desktop friendly design and then works down in screen sizes, this uses max-width.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+This sets the viewers settings to 62.5% of their default font-size usually this equals 10px and then when you state rem units you can give accurate sizes on all your text. For instance, when you say 1.5rem that is 15px. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+ Using preprocessing is a more powerful way to write style sheets that are compiled into CSS later on to give you more organization, cleaner code, and make your life easier when it comes to repeating the same code. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite part of preprocessing is the way it cleans up your code and makes everything easier to read. 
+The hardest part is remembering to tell your terminal to watch the less file while working on the projects and using parametric mixins.
+
+----------------------------------------------------------------------------
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
